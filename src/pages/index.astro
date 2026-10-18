@@ -1,0 +1,616 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SlatsCover from '../components/SlatsCover.astro';
+import LocalClock from '../components/LocalClock.astro';
+
+const aiTools = [
+  { name: 'ChatGPT', color: '#10a37f' },
+  { name: 'Claude', color: '#d97757' },
+  { name: 'Claude Code', color: '#d97757' },
+  { name: 'Antigravity 2.0', color: '#3186ff' },
+  { name: 'Gemini', color: '#1a73e8' },
+  { name: 'Perplexity', color: '#20b2aa' },
+  { name: 'Grok', color: '#9a9897' }
+];
+
+const seoTools = [
+  'Screaming Frog',
+  'Ahrefs',
+  'Semrush',
+  'Moz',
+  'Surfer SEO',
+  'Google Search Console',
+  'GA4',
+  'Looker Studio',
+  'WordPress',
+  'Shopify',
+  'Schema.org',
+  'Webflow'
+];
+
+const topSkills = [
+  'White Label Agency SEO',
+  'Local SEO & Multi-Location GBP',
+  'Answer Engine Optimization (AEO)',
+  'Generative Engine Optimization (GEO)',
+  'Technical SEO & Core Web Vitals',
+  'Ecommerce SEO (Shopify/Woo)',
+  'Topical Authority & Semantic SEO',
+  'Backlink Audit & Penalty Recovery',
+  'Team Leadership & SEO SOPs'
+];
+---
+
+<BaseLayout
+  title="Md. Mizanur Rahaman · White Label SEO Strategist · Local & Ecommerce SEO"
+  description="SEO Strategist with 4+ years of agency experience. Growing local businesses from 50 to 1,200+ calls, Shopify e-commerce from 300 to 1.9K+ clicks, and engineering high-authority AI search visibility."
+  currentPath="/"
+>
+  <!-- Top sticky header bar -->
+  <Header />
+
+  <!-- Animated gradient slats cover -->
+  <SlatsCover />
+
+  <!-- Hero Profile Overview -->
+  <section class="flex flex-col items-center px-4 text-center sm:px-6 lg:px-8">
+    <!-- Avatar Profile Picture -->
+    <div class="relative -mt-13 size-26 rounded-full ring-4 ring-[var(--surface)] bg-gradient-to-tr from-emerald-600 via-teal-500 to-emerald-400 p-1 shadow-xl">
+      <div class="size-full rounded-full bg-zinc-900 flex items-center justify-center text-white text-3xl font-black tracking-tight select-none">
+        MR
+      </div>
+      <!-- Verified status indicator -->
+      <span class="absolute bottom-0 right-1 size-5 rounded-full bg-emerald-500 ring-2 ring-[var(--surface)] flex items-center justify-center text-white text-[10px] font-bold" title="Available for hire">
+        ✓
+      </span>
+    </div>
+
+    <!-- Name & Verification -->
+    <h1 class="mt-3 flex items-center gap-1.5 text-2xl sm:text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+      <span>Md. Mizanur Rahaman</span>
+      <svg class="size-6 text-emerald-600 dark:text-emerald-400 shrink-0" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.01 2.011a3.2 3.2 0 0 1 2.113.797l.154.145.698.698a1.2 1.2 0 0 0 .71.341L15.82 4h1a3.2 3.2 0 0 1 3.195 3.018l.005.182v1c0 .27.092.533.258.743l.09.1.697.698a3.2 3.2 0 0 1 .147 4.382l-.145.154-.698.698a1.2 1.2 0 0 0-.341.71l-.008.135v1a3.2 3.2 0 0 1-3.018 3.195l-.182.005h-1a1.2 1.2 0 0 0-.743.258l-.1.09-.698.697a3.2 3.2 0 0 1-4.382.147l-.154-.145-.698-.698a1.2 1.2 0 0 0-.71-.341L8.2 20.02h-1a3.2 3.2 0 0 1-3.195-3.018L4 16.82v-1a1.2 1.2 0 0 0-.258-.743l-.09-.1-.697-.698a3.2 3.2 0 0 1-.147-4.382l.145-.154.698-.698a1.2 1.2 0 0 0 .341-.71L4 8.2v-1l.005-.182a3.2 3.2 0 0 1 3.013-3.013L7.2 4h1a1.2 1.2 0 0 0 .743-.258l.1-.09.698-.697a3.2 3.2 0 0 1 2.269-.944m3.697 7.282a1 1 0 0 0-1.414 0L11 12.585l-1.293-1.292l-.094-.083a1 1 0 0 0-1.32 1.497l2 2l.094.083a1 1 0 0 0 1.32-.083l4-4l.083-.094a1 1 0 0 0-.083-1.32"/>
+      </svg>
+    </h1>
+
+    <!-- Headline -->
+    <p class="mt-1 text-sm sm:text-base font-medium text-emerald-700 dark:text-emerald-400 max-w-xl">
+      White Label SEO Strategist · Local & Ecommerce SEO · AI Search (GEO/AEO) Specialist
+    </p>
+
+    <!-- Availability Status Pill -->
+    <a
+      href="/contact"
+      data-sfx="pop"
+      class="mt-3 inline-flex items-center gap-2 rounded-full bg-emerald-500/10 px-3.5 py-1 text-xs font-semibold text-emerald-700 dark:text-emerald-400 ring-1 ring-emerald-500/25 hover:bg-emerald-500/15 transition-colors"
+    >
+      <span class="relative flex size-2">
+        <span class="absolute inline-flex size-full rounded-full bg-emerald-400 opacity-75 motion-safe:animate-ping"></span>
+        <span class="relative inline-flex size-2 rounded-full bg-emerald-500"></span>
+      </span>
+      Available 6–8 hrs/day for Remote, Full-time, Team Lead & Consulting Roles
+    </a>
+
+    <!-- Meta Details Row -->
+    <ul class="mt-4 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-xs sm:text-sm text-zinc-600 dark:text-zinc-400">
+      <li class="inline-flex items-center gap-1.5">
+        <svg class="size-4 shrink-0 text-emerald-600 dark:text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+        </svg>
+        <span>Senior SEO Executive & Team Lead at <strong class="text-zinc-900 dark:text-zinc-100 font-semibold">CrazyGraph Agency</strong></span>
+      </li>
+
+      <li class="inline-flex items-center gap-1.5">
+        <svg class="size-4 shrink-0 text-emerald-600 dark:text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>
+        </svg>
+        <span>Chittagong, Bangladesh</span>
+        <span class="text-zinc-400">·</span>
+        <LocalClock showIcon={false} />
+      </li>
+    </ul>
+
+    <!-- AI Tools Pills -->
+    <div class="mt-6 max-w-2xl space-y-2">
+      <p class="text-[11px] font-semibold uppercase tracking-wider text-zinc-400 dark:text-zinc-500">AI Search & Optimization Stack</p>
+      <ul class="flex flex-wrap gap-1.5 justify-center">
+        {aiTools.map((tool) => (
+          <li>
+            <span class="pill ai-pill font-medium" style={`--ai: ${tool.color}`}>
+              <span class="size-2 rounded-full" style={`background-color: ${tool.color}`}></span>
+              {tool.name}
+            </span>
+          </li>
+        ))}
+      </ul>
+
+      <!-- SEO Tech Stack -->
+      <ul class="flex flex-wrap gap-1.5 justify-center pt-1">
+        {seoTools.map((tech) => (
+          <li>
+            <span class="pill font-medium text-xs">
+              {tech}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <!-- Mobile CTAs -->
+    <div class="mt-7 flex gap-3 md:hidden">
+      <a href="/contact" data-sfx="pop" class="btn btn-primary h-10 px-5 rounded-xl text-sm font-semibold">
+        <span class="btn-content">Get in touch</span>
+      </a>
+      <button type="button" data-share class="btn btn-secondary h-10 px-4 rounded-xl text-sm font-semibold">
+        <span class="btn-content inline-flex items-center gap-1.5">Share</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Profile Tabs Navigation -->
+  <nav class="mt-10 scroll-mt-14 border-b border-zinc-200 dark:border-zinc-800 px-4 sm:px-6 lg:px-8" aria-label="Profile navigation">
+    <ul class="flex justify-center gap-8">
+      <li>
+        <a href="/" class="relative block py-3 text-xs sm:text-sm font-semibold tracking-wide uppercase text-emerald-700 dark:text-emerald-400 border-b-2 border-emerald-600 dark:border-emerald-400">
+          Resume
+        </a>
+      </li>
+      <li>
+        <a href="/work" class="relative block py-3 text-xs sm:text-sm font-semibold tracking-wide uppercase text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
+          Case Studies & Results
+        </a>
+      </li>
+      <li>
+        <a href="/services" class="relative block py-3 text-xs sm:text-sm font-semibold tracking-wide uppercase text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
+          Services
+        </a>
+      </li>
+      <li>
+        <a href="/contact" class="relative block py-3 text-xs sm:text-sm font-semibold tracking-wide uppercase text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Sections -->
+  <div class="px-4 py-10 sm:px-6 lg:px-8 space-y-12">
+    <!-- About Section with Expandable Read More -->
+    <section aria-labelledby="about-heading" class="space-y-4">
+      <div class="flex items-center justify-between">
+        <h2 id="about-heading" class="flex items-center gap-2.5 text-lg font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+          <svg class="size-5 text-emerald-600 dark:text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+          </svg>
+          About Me
+        </h2>
+      </div>
+
+      <div id="about-content" class="text-sm sm:text-base leading-relaxed text-zinc-700 dark:text-zinc-300 space-y-3">
+        <p>
+          I’m an <strong>SEO Strategist with 4+ years of hands-on experience</strong> at fast-paced digital marketing agencies including <em>CrazyGraph</em> and <em>Markeion</em>. Having served as both Junior and Senior SEO Executive, I specialize in architecting holistic organic search systems that combine technical precision, entity authority, and high-impact local conversion.
+        </p>
+
+        <p>
+          My track record includes scaling local businesses from <strong>50 to 1,200+ direct customer calls in just 5 months</strong> through systematic Google Business Profile optimization, citation structuring, and local topical mapping. In the e-commerce space, I scaled a Shopify store’s organic clicks from <strong>300 to 1.9K+ clicks within 90 days</strong>.
+        </p>
+
+        <div id="about-expanded" class="hidden space-y-3 pt-1">
+          <p>
+            As search engines evolve into conversational AI platforms, I actively engineer <strong>Answer Engine Optimization (AEO)</strong> and <strong>Generative Engine Optimization (GEO)</strong> frameworks. I ensure brand entities are recognized, cited, and recommended across <em>Google AI Overviews</em>, <em>ChatGPT</em>, <em>Claude</em>, <em>Perplexity</em>, and <em>Grok</em>.
+          </p>
+          <p>
+            I have collaborated with agencies and clients across the <strong>USA, UK, UAE, and the Netherlands</strong>. Whether managing 30+ confidential agency campaigns or leading technical backlink recovery to jump rankings from page 2 to top 5, I focus on measurable revenue and high-converting organic visibility.
+          </p>
+        </div>
+
+        <button
+          type="button"
+          id="about-toggle-btn"
+          class="inline-flex items-center gap-1 font-semibold text-emerald-700 dark:text-emerald-400 hover:underline cursor-pointer pt-1"
+        >
+          <span id="about-toggle-text">Read more</span>
+          <svg id="about-toggle-icon" class="size-4 transition-transform duration-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Quick Facts Halo Cards Grid -->
+      <div class="grid gap-4 sm:grid-cols-2 pt-2">
+        <!-- Based in Chittagong Card -->
+        <div class="halo" data-halo>
+          <div class="halo-glow" aria-hidden="true"></div>
+          <div class="glass p-5 h-full flex flex-col justify-between">
+            <div class="halo-spot" aria-hidden="true"></div>
+            <div>
+              <p class="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+                <svg class="size-4 text-emerald-600 dark:text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/>
+                </svg>
+                Based in
+              </p>
+              <p class="mt-1 text-base font-semibold text-zinc-900 dark:text-zinc-100">Chittagong, Bangladesh</p>
+              <div class="mt-4 flex items-baseline gap-2">
+                <span class="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+                  <LocalClock showIcon={false} />
+                </span>
+                <span class="text-xs text-zinc-500 font-medium">GMT+6</span>
+              </div>
+            </div>
+            <p class="mt-3 text-xs text-zinc-500 flex items-center gap-1.5">
+              <span class="size-2 rounded-full bg-emerald-500"></span>
+              Live Asia/Dhaka Local Time
+            </p>
+          </div>
+        </div>
+
+        <!-- Remote-First Card -->
+        <div class="card-raised p-5 flex flex-col justify-between">
+          <div>
+            <p class="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+              <svg class="size-4 text-emerald-600 dark:text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/>
+              </svg>
+              Work Style
+            </p>
+            <p class="mt-1 text-base font-semibold text-zinc-900 dark:text-zinc-100">Remote-First & Async-Friendly</p>
+            <p class="mt-1.5 text-xs text-zinc-600 dark:text-zinc-400 leading-normal">
+              Experienced working with distributed teams and agencies across USA, UK, and European time zones with prompt communication.
+            </p>
+          </div>
+
+          <ul class="mt-4 flex flex-wrap gap-1.5">
+            <li class="inline-flex items-center gap-1 rounded-md bg-zinc-100 dark:bg-zinc-800 px-2 py-0.5 text-xs font-medium text-zinc-700 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-700">
+              <span class="text-emerald-600 font-bold">✓</span> US Hours
+            </li>
+            <li class="inline-flex items-center gap-1 rounded-md bg-zinc-100 dark:bg-zinc-800 px-2 py-0.5 text-xs font-medium text-zinc-700 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-700">
+              <span class="text-emerald-600 font-bold">✓</span> UK & EU Hours
+            </li>
+            <li class="inline-flex items-center gap-1 rounded-md bg-zinc-100 dark:bg-zinc-800 px-2 py-0.5 text-xs font-medium text-zinc-700 dark:text-zinc-300 border border-zinc-200 dark:border-zinc-700">
+              <span class="text-emerald-600 font-bold">✓</span> White Label Ready
+            </li>
+          </ul>
+        </div>
+
+        <!-- Languages Card -->
+        <div class="card-raised p-5 sm:col-span-2">
+          <p class="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+            <svg class="size-4 text-emerald-600 dark:text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/>
+            </svg>
+            Languages & Communication
+          </p>
+
+          <div class="mt-4 grid gap-4 sm:grid-cols-2">
+            <div class="p-3 rounded-xl bg-zinc-100/70 dark:bg-zinc-800/60 border border-zinc-200/50 dark:border-zinc-700/50">
+              <div class="flex items-center justify-between">
+                <span class="font-semibold text-sm">English</span>
+                <span class="badge text-xs">Professional Working</span>
+              </div>
+              <p class="text-xs text-zinc-500 mt-1">Client reporting, strategy presentations, and asynchronous team management</p>
+            </div>
+
+            <div class="p-3 rounded-xl bg-zinc-100/70 dark:bg-zinc-800/60 border border-zinc-200/50 dark:border-zinc-700/50">
+              <div class="flex items-center justify-between">
+                <span class="font-semibold text-sm">Bengali</span>
+                <span class="badge text-xs">Native</span>
+              </div>
+              <p class="text-xs text-zinc-500 mt-1">First language, fluent oral and written communication</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Experience Timeline -->
+    <section aria-labelledby="experience-heading" class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h2 id="experience-heading" class="flex items-center gap-2.5 text-lg font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+          <svg class="size-5 text-emerald-600 dark:text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+          </svg>
+          Professional Experience
+        </h2>
+      </div>
+
+      <ol class="relative space-y-8 pl-6 border-l border-zinc-200 dark:border-zinc-800">
+        <!-- Experience 1: CrazyGraph -->
+        <li class="relative group">
+          <span class="absolute -left-[31px] top-1.5 size-4 rounded-full border-2 border-emerald-600 bg-[var(--surface)] ring-4 ring-emerald-500/20"></span>
+          
+          <div class="flex flex-wrap items-baseline justify-between gap-x-2">
+            <h3 class="text-base font-bold text-zinc-900 dark:text-zinc-100">
+              Senior SEO Executive & Team Lead
+            </h3>
+            <span class="text-xs font-mono text-zinc-500">Nov 2024 – Present</span>
+          </div>
+
+          <p class="text-sm font-medium text-emerald-700 dark:text-emerald-400">
+            CrazyGraph Marketing Agency <span class="text-zinc-400 font-normal">· In-house · Full-time</span>
+          </p>
+
+          <p class="mt-2 text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed">
+            Managing <strong>30+ simultaneous SEO campaigns</strong> across local, national, multilingual, multi-location, and B2B sectors in healthcare, legal, and consumer industries across the USA, UK, and UAE under strict confidentiality.
+          </p>
+
+          <ul class="mt-3 space-y-1.5 text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 list-disc pl-5">
+            <li>Developed customized agency SOPs and client-specific frameworks delivering measurable ranking jumps within 3–6 months.</li>
+            <li>Implemented AI-powered SEO strategies improving entity visibility across Google SERPs, AI Overviews, and LLMs (ChatGPT, Claude, Grok).</li>
+            <li>Led task delegation, team collaboration, QA audits, and high-touch strategic reporting for executive stakeholders.</li>
+          </ul>
+
+          <div class="mt-3 flex flex-wrap gap-1.5">
+            <span class="badge text-xs">Team Leadership</span>
+            <span class="badge text-xs">AI Overviews</span>
+            <span class="badge text-xs">Agency SOPs</span>
+            <span class="badge text-xs">Healthcare SEO</span>
+          </div>
+        </li>
+
+        <!-- Experience 2: Valley Industry Supply -->
+        <li class="relative group">
+          <span class="absolute -left-[31px] top-1.5 size-4 rounded-full border-2 border-zinc-400 dark:border-zinc-600 bg-[var(--surface)]"></span>
+          
+          <div class="flex flex-wrap items-baseline justify-between gap-x-2">
+            <h3 class="text-base font-bold text-zinc-900 dark:text-zinc-100">
+              Freelance SEO Executive (Project Basis)
+            </h3>
+            <span class="text-xs font-mono text-zinc-500">May 2026 – Present</span>
+          </div>
+
+          <p class="text-sm font-medium text-zinc-600 dark:text-zinc-400">
+            Valley Industry Supply – USA <span class="text-zinc-400 font-normal">· Remote</span>
+          </p>
+
+          <p class="mt-2 text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed">
+            Architected Google Business Profile and authoritative link-building campaigns for a prominent B2B manufacturing firm, significantly expanding organic reach across the USA and Mexico.
+          </p>
+
+          <ul class="mt-2 space-y-1 text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 list-disc pl-5">
+            <li>Engineered B2B high-intent keyword strategies and technical optimization for industrial equipment catalogs.</li>
+            <li>Secured targeted niche-relevant backlinks, strengthening topical authority and search engine trust signals.</li>
+          </ul>
+        </li>
+
+        <!-- Experience 3: Ramies Taxi -->
+        <li class="relative group">
+          <span class="absolute -left-[31px] top-1.5 size-4 rounded-full border-2 border-zinc-400 dark:border-zinc-600 bg-[var(--surface)]"></span>
+          
+          <div class="flex flex-wrap items-baseline justify-between gap-x-2">
+            <h3 class="text-base font-bold text-zinc-900 dark:text-zinc-100">
+              Freelance Technical SEO Strategist
+            </h3>
+            <span class="text-xs font-mono text-zinc-500">Jan 2025 – Jun 2025</span>
+          </div>
+
+          <p class="text-sm font-medium text-zinc-600 dark:text-zinc-400">
+            Ramies Taxi – UK <span class="text-zinc-400 font-normal">· Remote</span>
+          </p>
+
+          <div class="halo my-3" data-halo>
+            <div class="halo-glow" aria-hidden="true"></div>
+            <div class="glass p-4 rounded-xl">
+              <div class="halo-spot" aria-hidden="true"></div>
+              <div class="flex items-center gap-3">
+                <span class="text-2xl font-black text-emerald-600 dark:text-emerald-400">3×</span>
+                <p class="text-xs text-zinc-700 dark:text-zinc-300">
+                  <strong>Rankings Surge to Top 5:</strong> Identified and disavowed 300+ spammy backlinks and audited Core Web Vitals, resulting in target keywords jumping from position 10+ into the Top 5 organic spots.
+                </p>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <!-- Experience 4: Markeion Software Company -->
+        <li class="relative group">
+          <span class="absolute -left-[31px] top-1.5 size-4 rounded-full border-2 border-zinc-400 dark:border-zinc-600 bg-[var(--surface)]"></span>
+          
+          <div class="flex flex-wrap items-baseline justify-between gap-x-2">
+            <h3 class="text-base font-bold text-zinc-900 dark:text-zinc-100">
+              Junior SEO Executive
+            </h3>
+            <span class="text-xs font-mono text-zinc-500">Aug 2023 – Sep 2024</span>
+          </div>
+
+          <p class="text-sm font-medium text-zinc-600 dark:text-zinc-400">
+            Markeion Software Company – UK <span class="text-zinc-400 font-normal">· Remote</span>
+          </p>
+
+          <p class="mt-2 text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed">
+            Built strong foundations across on-page, off-page, and technical SEO for local, national, and e-commerce clients. Spearheaded keyword research, schema implementation, page speed optimization, and early LLM search testing.
+          </p>
+        </li>
+
+        <!-- Experience 5: Fanflix BD -->
+        <li class="relative group">
+          <span class="absolute -left-[31px] top-1.5 size-4 rounded-full border-2 border-zinc-400 dark:border-zinc-600 bg-[var(--surface)]"></span>
+          
+          <div class="flex flex-wrap items-baseline justify-between gap-x-2">
+            <h3 class="text-base font-bold text-zinc-900 dark:text-zinc-100">
+              Freelance Ecommerce SEO Strategist
+            </h3>
+            <span class="text-xs font-mono text-zinc-500">Jun 2023 – Sep 2023</span>
+          </div>
+
+          <p class="text-sm font-medium text-zinc-600 dark:text-zinc-400">
+            Fanflix BD – Dhaka, Bangladesh <span class="text-zinc-400 font-normal">· Remote</span>
+          </p>
+
+          <p class="mt-2 text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed">
+            Optimized a Shopify-based e-commerce platform selling digital products. Increased organic clicks from <strong>~300 to 1.9K+ clicks within 3 months</strong> through high-intent category restructuring and on-page CRO.
+          </p>
+        </li>
+
+        <!-- Experience 6: Worldwide Local Businesses -->
+        <li class="relative group">
+          <span class="absolute -left-[31px] top-1.5 size-4 rounded-full border-2 border-zinc-400 dark:border-zinc-600 bg-[var(--surface)]"></span>
+          
+          <div class="flex flex-wrap items-baseline justify-between gap-x-2">
+            <h3 class="text-base font-bold text-zinc-900 dark:text-zinc-100">
+              Freelance Local SEO Strategist
+            </h3>
+            <span class="text-xs font-mono text-zinc-500">Jan 2023 – Present</span>
+          </div>
+
+          <p class="text-sm font-medium text-zinc-600 dark:text-zinc-400">
+            Local Businesses – Worldwide
+          </p>
+
+          <div class="mt-3 grid gap-2 text-xs sm:text-sm text-zinc-700 dark:text-zinc-300">
+            <div class="p-2.5 rounded-lg bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800">
+              <strong>UK Pharmacy:</strong> Full local SEO overhaul and Google Business Profile optimization generating <strong>1,200+ calls within 6 months</strong>.
+            </div>
+            <div class="p-2.5 rounded-lg bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800">
+              <strong>Houston Landscaping Business:</strong> Optimized local citations and GBP, generating <strong>330 calls in a single month</strong>.
+            </div>
+            <div class="p-2.5 rounded-lg bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800">
+              <strong>Chiropody Clinic (Manchester):</strong> Revamped services, landing pages, and GBP to drive direct appointments directly from Google Maps.
+            </div>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Top Skills & Core Expertise -->
+    <section aria-labelledby="skills-heading" class="space-y-4">
+      <h2 id="skills-heading" class="flex items-center gap-2.5 text-lg font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+        <svg class="size-5 text-emerald-600 dark:text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6Z"/>
+        </svg>
+        Core Competencies
+      </h2>
+
+      <div class="flex flex-wrap gap-2">
+        {topSkills.map((skill) => (
+          <span class="badge text-xs sm:text-sm py-1 px-3">
+            {skill}
+          </span>
+        ))}
+      </div>
+    </section>
+
+    <!-- Technical Skills & Tools Matrix -->
+    <section aria-labelledby="tools-matrix-heading" class="space-y-4">
+      <h2 id="tools-matrix-heading" class="flex items-center gap-2.5 text-lg font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+        <svg class="size-5 text-emerald-600 dark:text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+        </svg>
+        Tools & Technologies Matrix
+      </h2>
+
+      <div class="grid gap-3 sm:grid-cols-2">
+        <div class="card-raised p-4">
+          <h3 class="font-semibold text-xs uppercase tracking-wider text-emerald-700 dark:text-emerald-400 mb-2">SEO & Crawling</h3>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            Screaming Frog, Ahrefs, Semrush, Moz, Surfer SEO, Frase, Local Falcon, People Also Ask, Ubersuggest
+          </p>
+        </div>
+
+        <div class="card-raised p-4">
+          <h3 class="font-semibold text-xs uppercase tracking-wider text-emerald-700 dark:text-emerald-400 mb-2">Analytics & Data</h3>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            Google Search Console, Google Analytics 4 (GA4), Google Tag Manager, Looker Studio, Google Sheets & Docs
+          </p>
+        </div>
+
+        <div class="card-raised p-4">
+          <h3 class="font-semibold text-xs uppercase tracking-wider text-emerald-700 dark:text-emerald-400 mb-2">CMS & Platforms</h3>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            WordPress, Shopify, Webflow, Wix, WooCommerce, Drupal
+          </p>
+        </div>
+
+        <div class="card-raised p-4">
+          <h3 class="font-semibold text-xs uppercase tracking-wider text-emerald-700 dark:text-emerald-400 mb-2">AI Search & LLM Engines</h3>
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            ChatGPT, Claude, Claude Code, Antigravity 2.0, Gemini, Perplexity, Grok
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications & Education -->
+    <section aria-labelledby="credentials-heading" class="space-y-4">
+      <h2 id="credentials-heading" class="flex items-center gap-2.5 text-lg font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">
+        <svg class="size-5 text-emerald-600 dark:text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>
+        </svg>
+        Education & Certifications
+      </h2>
+
+      <div class="grid gap-3 sm:grid-cols-2">
+        <div class="p-4 rounded-2xl bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800">
+          <p class="text-xs font-semibold uppercase text-emerald-700 dark:text-emerald-400">Formal Education</p>
+          <h3 class="font-bold text-sm text-zinc-900 dark:text-zinc-100 mt-1">Bachelor of Social Science (BSS)</h3>
+          <p class="text-xs text-zinc-500 mt-0.5">2020 – 2025 (Completed) · Chittagong College, Bangladesh</p>
+        </div>
+
+        <div class="p-4 rounded-2xl bg-zinc-50 dark:bg-zinc-800/40 border border-zinc-200 dark:border-zinc-800">
+          <p class="text-xs font-semibold uppercase text-emerald-700 dark:text-emerald-400">Accreditations</p>
+          <ul class="text-xs text-zinc-700 dark:text-zinc-300 mt-1 space-y-1">
+            <li>• <strong>Semrush Academy:</strong> Advanced Technical SEO</li>
+            <li>• <strong>Udemy:</strong> Page-One Results AEO & GEO</li>
+            <li>• <strong>Schema App:</strong> Schema.org Implementation Specialist</li>
+            <li>• <strong>BrightLocal:</strong> Local SEO Fundamentals</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Callout Card -->
+    <div class="p-5 rounded-2xl border border-dashed border-emerald-500/40 bg-emerald-500/5 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="text-center sm:text-left">
+        <h3 class="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Ready to boost your organic search revenue?</h3>
+        <p class="text-xs text-zinc-500 mt-0.5">Available for full-time, agency white label, or project consulting.</p>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <a
+          href="/contact"
+          data-sfx="pop"
+          class="btn btn-primary h-9 px-4 rounded-xl text-xs font-semibold"
+        >
+          <span class="btn-content">Get in touch</span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/mizan-seo/"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-secondary h-9 px-3.5 rounded-xl text-xs font-semibold"
+        >
+          <span class="btn-content">LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive script for Read More toggle -->
+  <script>
+    function setupAboutToggle() {
+      const btn = document.getElementById('about-toggle-btn');
+      const expanded = document.getElementById('about-expanded');
+      const text = document.getElementById('about-toggle-text');
+      const icon = document.getElementById('about-toggle-icon');
+
+      btn?.addEventListener('click', () => {
+        if (!expanded || !text || !icon) return;
+        const isOpen = !expanded.classList.contains('hidden');
+        if (isOpen) {
+          expanded.classList.add('hidden');
+          text.textContent = 'Read more';
+          icon.style.transform = 'rotate(0deg)';
+        } else {
+          expanded.classList.remove('hidden');
+          text.textContent = 'Read less';
+          icon.style.transform = 'rotate(180deg)';
+        }
+        if (window.playSfx) window.playSfx('click');
+      });
+    }
+
+    setupAboutToggle();
+    document.addEventListener('astro:after-swap', setupAboutToggle);
+  </script>
+</BaseLayout>

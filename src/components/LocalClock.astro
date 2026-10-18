@@ -1,0 +1,44 @@
+---
+interface Props {
+  showIcon?: boolean;
+  prefix?: string;
+  className?: string;
+}
+
+const { showIcon = true, prefix = "", className = "" } = Astro.props;
+---
+<span class={`inline-flex items-center gap-1.5 tabular-nums ${className}`} data-live-clock>
+  {showIcon && (
+    <svg xmlns="http://www.w3.org/2000/svg" class="size-4 text-emerald-600 dark:text-emerald-400 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"></circle>
+      <polyline points="12 6 12 12 16 14"></polyline>
+    </svg>
+  )}
+  {prefix && <span class="text-zinc-500 dark:text-zinc-400">{prefix}</span>}
+  <span data-clock-display class="font-medium">--:-- --</span>
+</span>
+
+<script>
+  function initClock() {
+    function update() {
+      const now = new Date();
+      const options: Intl.DateTimeFormatOptions = {
+        timeZone: 'Asia/Dhaka',
+        hour: 'numeric',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: true,
+      };
+      const formatted = new Intl.DateTimeFormat('en-US', options).format(now);
+      document.querySelectorAll('[data-clock-display]').forEach((el) => {
+        el.textContent = formatted;
+      });
+    }
+
+    update();
+    setInterval(update, 1000);
+  }
+
+  initClock();
+  document.addEventListener('astro:after-swap', initClock);
+</script>

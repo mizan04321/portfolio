@@ -1,0 +1,50 @@
+---
+---
+<button
+  type="button"
+  data-sound-toggle
+  aria-label="Toggle sound effects"
+  class="btn btn-secondary grid size-9 place-items-center rounded-full transition-transform active:scale-90"
+  title="Toggle sound effects"
+>
+  <span class="btn-content grid place-items-center">
+    <!-- Volume On icon -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="size-4.5 muted:hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+      <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+      <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+    </svg>
+    <!-- Volume Muted icon -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="hidden size-4.5 muted:block text-zinc-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="2" x2="22" y1="2" y2="22"></line>
+      <path d="M18.89 13.23A7.12 7.12 0 0 0 19 12a9 9 0 0 0-2.18-5.88"></path>
+      <path d="M15.54 8.46a5 5 0 0 1 .8 5.75"></path>
+      <path d="M11 5 6.64 8.56"></path>
+      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+      <line x1="22" x2="16" y1="9" y2="15"></line>
+    </svg>
+  </span>
+</button>
+
+<script>
+  function setupSoundToggle() {
+    const toggles = document.querySelectorAll('[data-sound-toggle]');
+    toggles.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const root = document.documentElement;
+        const current = root.dataset.sound === 'off' ? 'on' : 'off';
+        if (current === 'off') {
+          root.dataset.sound = 'off';
+          localStorage.setItem('sound', 'off');
+        } else {
+          delete root.dataset.sound;
+          localStorage.setItem('sound', 'on');
+          if (window.playSfx) window.playSfx('pop');
+        }
+      });
+    });
+  }
+
+  setupSoundToggle();
+  document.addEventListener('astro:after-swap', setupSoundToggle);
+</script>

@@ -1,0 +1,199 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SlatsCover from '../components/SlatsCover.astro';
+
+const services = [
+  {
+    title: "White Label Agency SEO & Team Leadership",
+    subtitle: "Built for UK, US & Worldwide Digital Marketing Agencies",
+    description: "Reliable, high-standard execution under strict confidentiality. I act as your agency's white-label SEO strategist or team lead, managing SOPs, delegation, and reporting.",
+    deliverables: [
+      "Custom agency SOPs for predictable 3–6 month ranking improvements",
+      "Confidential campaign execution across multi-location, local, and B2B clients",
+      "Detailed Looker Studio / GA4 reporting branded with your agency's identity",
+      "Direct technical oversight and quality assurance across junior team members"
+    ],
+    idealFor: "Agencies scaling past capacity that need senior-level SEO leadership without recruitment overhead."
+  },
+  {
+    title: "Local SEO & Google Business Profile Domination",
+    subtitle: "Turn Google Maps Searchers into Paying Customers",
+    description: "Holistic local ranking strategy engineered to dominate the Local 3-Pack and drive measurable phone calls and store visits.",
+    deliverables: [
+      "GBP deep audit, category optimization, and geo-targeted service descriptions",
+      "Location-specific landing pages tied to structured LocalBusiness schema",
+      "High-authority local citation cleanup, building, and NAP consistency audits",
+      "Proven framework that grew a local client from 50 to 1,200+ calls in 5 months"
+    ],
+    idealFor: "Pharmacies, clinics, home service contractors, taxi fleets, and multi-location practices."
+  },
+  {
+    title: "AI Search Optimization (GEO & AEO)",
+    subtitle: "Future-Proof Visibility in ChatGPT, Claude, Perplexity & AI Overviews",
+    description: "Optimizing your brand's digital footprint so conversational AI answer engines accurately cite and recommend your business.",
+    deliverables: [
+      "Answer Engine Optimization (AEO) tailored for direct query answers",
+      "Generative Engine Optimization (GEO) structured for LLM knowledge retrieval",
+      "Brand entity mapping and Wikidata / Schema.org semantic connections",
+      "AI visibility monitoring across Google AI Mode, ChatGPT, and Claude"
+    ],
+    idealFor: "Brands seeking first-mover advantage as consumer search shifts toward generative AI."
+  },
+  {
+    title: "Technical SEO Audits & Penalty Recovery",
+    subtitle: "Fix Crawl Bloat, Core Web Vitals & Toxic Backlink Penalties",
+    description: "Deep diagnostic audits using Screaming Frog, Semrush, and GSC to identify and resolve deep architectural roadblocks.",
+    deliverables: [
+      "Complete site architecture, crawl budget, and indexation analysis",
+      "Harmful/spammy backlink identification and Google Disavow file preparation (3× rank recovery track record)",
+      "Core Web Vitals diagnostic (LCP, CLS, INP) and speed remediation guidance",
+      "Advanced Schema.org JSON-LD custom implementation"
+    ],
+    idealFor: "Websites experiencing sudden traffic drops, indexation stalls, or preparing for site migrations."
+  },
+  {
+    title: "E-Commerce SEO (Shopify & WooCommerce)",
+    subtitle: "Turn Organic Search into High-Intent Store Revenue",
+    description: "Specialized e-commerce search strategy focusing on high-converting product categories and commercial intent keywords.",
+    deliverables: [
+      "Faceted navigation and collection filter crawl-optimization",
+      "Product schema markup, merchant data alignment, and rich snippet setup",
+      "Topical category clusters that outrank generic marketplace competitors",
+      "Proven Shopify case study scaling organic clicks from 300 to 1.9K+ in 90 days"
+    ],
+    idealFor: "Shopify and WooCommerce brands looking to lower customer acquisition costs (CAC) through organic channels."
+  }
+];
+---
+
+<BaseLayout
+  title="Services & Strategic Offerings · Md. Mizanur Rahaman"
+  description="High-impact SEO services: White label agency leadership, Google Business Profile domination, AI Search (GEO/AEO), Technical audits, and Shopify e-commerce growth."
+  currentPath="/services"
+>
+  <Header />
+  <SlatsCover />
+
+  <!-- Page Header -->
+  <section class="px-4 pt-8 text-center sm:px-6 lg:px-8">
+    <h1 class="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+      SEO Services & Strategic Offerings
+    </h1>
+    <p class="mt-2 text-sm sm:text-base text-zinc-600 dark:text-zinc-400 max-w-xl mx-auto">
+      Comprehensive white-label and direct consulting services designed to build enduring organic search authority.
+    </p>
+  </section>
+
+  <!-- Tabs -->
+  <nav class="mt-8 border-b border-zinc-200 dark:border-zinc-800 px-4 sm:px-6 lg:px-8" aria-label="Profile tabs">
+    <ul class="flex justify-center gap-8">
+      <li>
+        <a href="/" class="relative block py-3 text-xs sm:text-sm font-semibold tracking-wide uppercase text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
+          Resume
+        </a>
+      </li>
+      <li>
+        <a href="/work" class="relative block py-3 text-xs sm:text-sm font-semibold tracking-wide uppercase text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
+          Case Studies & Results
+        </a>
+      </li>
+      <li>
+        <a href="/services" class="relative block py-3 text-xs sm:text-sm font-semibold tracking-wide uppercase text-emerald-700 dark:text-emerald-400 border-b-2 border-emerald-600 dark:border-emerald-400">
+          Services
+        </a>
+      </li>
+      <li>
+        <a href="/contact" class="relative block py-3 text-xs sm:text-sm font-semibold tracking-wide uppercase text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Services Content -->
+  <div class="px-4 py-10 sm:px-6 lg:px-8 space-y-8">
+    <div class="space-y-6">
+      {services.map((service, index) => (
+        <article class="halo" data-halo>
+          <div class="halo-glow" aria-hidden="true"></div>
+          <div class="glass p-6 sm:p-8 rounded-2xl space-y-4">
+            <div class="halo-spot" aria-hidden="true"></div>
+            <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
+              <div>
+                <span class="text-xs font-mono font-bold text-emerald-700 dark:text-emerald-400">
+                  SERVICE 0{index + 1}
+                </span>
+                <h2 class="text-lg sm:text-xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100 mt-1">
+                  {service.title}
+                </h2>
+                <p class="text-xs font-medium text-emerald-700 dark:text-emerald-400 mt-0.5">
+                  {service.subtitle}
+                </p>
+              </div>
+
+              <a
+                href="/contact"
+                data-sfx="pop"
+                class="btn btn-secondary h-9 px-4 rounded-xl text-xs font-semibold self-start sm:self-auto shrink-0"
+              >
+                <span class="btn-content">Inquire Now</span>
+              </a>
+            </div>
+
+            <p class="text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed">
+              {service.description}
+            </p>
+
+            <div class="pt-2">
+              <h3 class="text-xs font-bold uppercase tracking-wider text-zinc-400 mb-2">Key Deliverables & Capabilities</h3>
+              <ul class="grid gap-2 sm:grid-cols-2 text-xs sm:text-sm text-zinc-600 dark:text-zinc-400">
+                {service.deliverables.map((item) => (
+                  <li class="flex items-start gap-2">
+                    <span class="text-emerald-600 dark:text-emerald-400 font-bold shrink-0">✓</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div class="p-3 rounded-xl bg-zinc-100/70 dark:bg-zinc-800/50 border border-zinc-200/50 dark:border-zinc-700/50 text-xs text-zinc-600 dark:text-zinc-400">
+              <strong class="text-zinc-900 dark:text-zinc-200">Ideal For:</strong> {service.idealFor}
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <!-- Ready to Collaborate CTA Card -->
+    <div class="halo" data-halo>
+      <div class="halo-glow" aria-hidden="true"></div>
+      <div class="glass p-8 rounded-2xl text-center space-y-4">
+        <div class="halo-spot" aria-hidden="true"></div>
+        <h3 class="text-xl font-bold text-zinc-900 dark:text-zinc-100">
+          Need a Dedicated SEO Strategist for Your Business?
+        </h3>
+        <p class="text-sm text-zinc-600 dark:text-zinc-400 max-w-lg mx-auto">
+          I am currently available 6–8 hours/day for remote contracts, white-label agency partnerships, and consulting roles.
+        </p>
+        <div class="pt-2 flex justify-center gap-3">
+          <a
+            href="/contact"
+            data-sfx="pop"
+            class="btn btn-primary h-10 px-6 rounded-xl text-sm font-semibold"
+          >
+            <span class="btn-content">Get in Touch</span>
+          </a>
+          <a
+            href="https://wa.me/8801688327756"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-secondary h-10 px-5 rounded-xl text-sm font-semibold"
+          >
+            <span class="btn-content">Chat on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

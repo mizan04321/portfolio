@@ -1,0 +1,361 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import SlatsCover from '../components/SlatsCover.astro';
+import LocalClock from '../components/LocalClock.astro';
+---
+
+<BaseLayout
+  title="Contact Md. Mizanur Rahaman · SEO Strategist"
+  description="Get in touch with Md. Mizanur Rahaman for white-label agency SEO, local SEO consultations, e-commerce optimization, and technical audits. Available 6–8 hrs/day."
+  currentPath="/contact"
+>
+  <Header />
+  <SlatsCover />
+
+  <!-- Page Header -->
+  <section class="px-4 pt-8 text-center sm:px-6 lg:px-8">
+    <h1 class="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+      Let’s Build Measurable Organic Growth
+    </h1>
+    <p class="mt-2 text-sm sm:text-base text-zinc-600 dark:text-zinc-400 max-w-xl mx-auto">
+      Have a campaign, an agency white-label partnership, or a consulting inquiry? Pick whatever is easiest and I'll get back to you promptly.
+    </p>
+
+    <div class="mt-4 flex flex-wrap items-center justify-center gap-3">
+      <span class="inline-flex items-center gap-2 rounded-full bg-emerald-500/10 px-3.5 py-1 text-xs font-semibold text-emerald-700 dark:text-emerald-400 ring-1 ring-emerald-500/25">
+        <span class="relative flex size-2">
+          <span class="absolute inline-flex size-full rounded-full bg-emerald-400 opacity-75 motion-safe:animate-ping"></span>
+          <span class="relative inline-flex size-2 rounded-full bg-emerald-500"></span>
+        </span>
+        Open to New Conversations · 6–8 hrs/day Available
+      </span>
+
+      <span class="inline-flex items-center gap-1.5 text-xs text-zinc-500">
+        <span>Chittagong, Bangladesh (GMT+6):</span>
+        <LocalClock showIcon={false} />
+      </span>
+    </div>
+  </section>
+
+  <!-- Profile Tabs -->
+  <nav class="mt-8 border-b border-zinc-200 dark:border-zinc-800 px-4 sm:px-6 lg:px-8" aria-label="Profile tabs">
+    <ul class="flex justify-center gap-8">
+      <li>
+        <a href="/" class="relative block py-3 text-xs sm:text-sm font-semibold tracking-wide uppercase text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
+          Resume
+        </a>
+      </li>
+      <li>
+        <a href="/work" class="relative block py-3 text-xs sm:text-sm font-semibold tracking-wide uppercase text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
+          Case Studies & Results
+        </a>
+      </li>
+      <li>
+        <a href="/services" class="relative block py-3 text-xs sm:text-sm font-semibold tracking-wide uppercase text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 transition-colors">
+          Services
+        </a>
+      </li>
+      <li>
+        <a href="/contact" class="relative block py-3 text-xs sm:text-sm font-semibold tracking-wide uppercase text-emerald-700 dark:text-emerald-400 border-b-2 border-emerald-600 dark:border-emerald-400">
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="px-4 py-10 sm:px-6 lg:px-8 space-y-12">
+    <!-- Work With Me Options -->
+    <section aria-labelledby="work-options" class="space-y-4">
+      <h2 id="work-options" class="text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+        Ways We Can Work Together
+      </h2>
+
+      <div class="grid gap-4 sm:grid-cols-3">
+        <div class="card-raised p-5 flex flex-col justify-between space-y-3">
+          <div>
+            <span class="btn btn-secondary size-10 rounded-xl grid place-items-center text-emerald-600 dark:text-emerald-400">
+              <svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </span>
+            <h3 class="font-bold text-sm text-zinc-900 dark:text-zinc-100 mt-2">White Label Agency Partnership</h3>
+            <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-1">
+              For digital marketing agencies needing senior execution, SOPs, and delivery under strict client confidentiality.
+            </p>
+          </div>
+          <a href="#contact-form" class="text-xs font-semibold text-emerald-700 dark:text-emerald-400 hover:underline">
+            Inquire for Agency Rates →
+          </a>
+        </div>
+
+        <div class="card-raised p-5 flex flex-col justify-between space-y-3">
+          <div>
+            <span class="btn btn-secondary size-10 rounded-xl grid place-items-center text-emerald-600 dark:text-emerald-400">
+              <svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>
+              </svg>
+            </span>
+            <h3 class="font-bold text-sm text-zinc-900 dark:text-zinc-100 mt-2">SEO Audit & Diagnostic</h3>
+            <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-1">
+              Deep technical crawl, Schema.org verification, backlink toxicity review, and an actionable 90-day roadmap.
+            </p>
+          </div>
+          <a href="#contact-form" class="text-xs font-semibold text-emerald-700 dark:text-emerald-400 hover:underline">
+            Request an Audit →
+          </a>
+        </div>
+
+        <div class="card-raised p-5 flex flex-col justify-between space-y-3">
+          <div>
+            <span class="btn btn-secondary size-10 rounded-xl grid place-items-center text-emerald-600 dark:text-emerald-400">
+              <svg class="size-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+              </svg>
+            </span>
+            <h3 class="font-bold text-sm text-zinc-900 dark:text-zinc-100 mt-2">Direct Retainer / Team Lead</h3>
+            <p class="text-xs text-zinc-600 dark:text-zinc-400 mt-1">
+              Monthly ongoing optimization for local business chains, Shopify e-commerce, or B2B platforms.
+            </p>
+          </div>
+          <a href="#contact-form" class="text-xs font-semibold text-emerald-700 dark:text-emerald-400 hover:underline">
+            Discuss Monthly Retainer →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Direct Reach Channels -->
+    <section aria-labelledby="reach-channels" class="space-y-4">
+      <h2 id="reach-channels" class="text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+        Direct Contact Channels
+      </h2>
+
+      <div class="grid gap-4 sm:grid-cols-2">
+        <!-- WhatsApp -->
+        <a
+          href="https://wa.me/8801688327756?text=Hi%20Mizanur,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20SEO%20project."
+          target="_blank"
+          rel="noopener"
+          data-sfx="pop"
+          class="card-raised p-4 flex items-center justify-between group"
+        >
+          <div class="flex items-center gap-3.5">
+            <span class="size-11 rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 grid place-items-center shrink-0">
+              <svg class="size-6 fill-current" viewBox="0 0 24 24">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.19.53-1.1 1.04-1.52 1.09-.4.05-.91.07-2.68-.66-2.14-.88-3.51-3.06-3.62-3.21-.1-.14-.87-1.16-.87-2.22 0-1.05.55-1.57.75-1.79.19-.21.42-.26.56-.26.14 0 .28 0 .4.01.13.01.3-.05.47.36.19.45.63 1.54.69 1.65.05.11.08.24.01.38-.07.14-.11.23-.21.35-.11.12-.22.27-.32.36-.11.1-.22.21-.1.41.13.22.56.93 1.21 1.51.83.74 1.53.97 1.75 1.08.22.11.35.09.48-.05.13-.14.56-.65.71-.88.15-.22.3-.19.51-.11.21.08 1.34.63 1.57.75.23.11.38.17.44.27.06.09.06.55-.13 1.08Z"/>
+              </svg>
+            </span>
+            <div>
+              <p class="font-bold text-sm text-zinc-900 dark:text-zinc-100">WhatsApp Direct</p>
+              <p class="text-xs font-mono text-zinc-500">+8801688327756</p>
+            </div>
+          </div>
+          <span class="text-xs font-semibold text-emerald-600 dark:text-emerald-400 group-hover:translate-x-1 transition-transform">
+            Chat Now →
+          </span>
+        </a>
+
+        <!-- Email -->
+        <a
+          href="mailto:mizanmahmudseo@gmail.com"
+          data-sfx="pop"
+          class="card-raised p-4 flex items-center justify-between group"
+        >
+          <div class="flex items-center gap-3.5">
+            <span class="size-11 rounded-xl bg-blue-500/10 text-blue-600 dark:text-blue-400 grid place-items-center shrink-0">
+              <svg class="size-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+            </span>
+            <div>
+              <p class="font-bold text-sm text-zinc-900 dark:text-zinc-100">Email Inquiry</p>
+              <p class="text-xs font-mono text-zinc-500 truncate max-w-[180px]">mizanmahmudseo@gmail.com</p>
+            </div>
+          </div>
+          <span class="text-xs font-semibold text-blue-600 dark:text-blue-400 group-hover:translate-x-1 transition-transform">
+            Send Email →
+          </span>
+        </a>
+
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/mizan-seo/"
+          target="_blank"
+          rel="noopener"
+          data-sfx="pop"
+          class="card-raised p-4 flex items-center justify-between group"
+        >
+          <div class="flex items-center gap-3.5">
+            <span class="size-11 rounded-xl bg-sky-500/10 text-sky-600 dark:text-sky-400 grid place-items-center shrink-0">
+              <svg class="size-6 fill-current" viewBox="0 0 24 24">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.64c-.95 0-1.72.77-1.72 1.72s.77 1.72 1.72 1.72 1.72-.77 1.72-1.72-.77-1.72-1.72-1.72Z"/>
+              </svg>
+            </span>
+            <div>
+              <p class="font-bold text-sm text-zinc-900 dark:text-zinc-100">LinkedIn Profile</p>
+              <p class="text-xs text-zinc-500">linkedin.com/in/mizan-seo</p>
+            </div>
+          </div>
+          <span class="text-xs font-semibold text-sky-600 dark:text-sky-400 group-hover:translate-x-1 transition-transform">
+            Connect →
+          </span>
+        </a>
+
+        <!-- Phone -->
+        <a
+          href="tel:+8801688327756"
+          data-sfx="pop"
+          class="card-raised p-4 flex items-center justify-between group"
+        >
+          <div class="flex items-center gap-3.5">
+            <span class="size-11 rounded-xl bg-purple-500/10 text-purple-600 dark:text-purple-400 grid place-items-center shrink-0">
+              <svg class="size-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </span>
+            <div>
+              <p class="font-bold text-sm text-zinc-900 dark:text-zinc-100">Direct Phone</p>
+              <p class="text-xs font-mono text-zinc-500">+8801688327756</p>
+            </div>
+          </div>
+          <span class="text-xs font-semibold text-purple-600 dark:text-purple-400 group-hover:translate-x-1 transition-transform">
+            Call →
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Interactive Contact Form -->
+    <section id="contact-form" class="halo" data-halo>
+      <div class="halo-glow" aria-hidden="true"></div>
+      <div class="glass p-6 sm:p-8 rounded-2xl space-y-6">
+        <div class="halo-spot" aria-hidden="true"></div>
+        <div>
+          <h2 class="text-lg font-bold tracking-tight text-zinc-900 dark:text-zinc-100">
+            Send a Message
+          </h2>
+          <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+            Fill out the details below and I’ll respond within 24 hours.
+          </p>
+        </div>
+
+        <form id="inquiry-form" class="space-y-4">
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div>
+              <label for="name" class="block text-xs font-semibold text-zinc-700 dark:text-zinc-300 mb-1">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="John Doe"
+                class="w-full px-3.5 py-2.5 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-[var(--surface)] text-sm text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+              />
+            </div>
+
+            <div>
+              <label for="email" class="block text-xs font-semibold text-zinc-700 dark:text-zinc-300 mb-1">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="john@agency.com"
+                class="w-full px-3.5 py-2.5 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-[var(--surface)] text-sm text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+              />
+            </div>
+          </div>
+
+          <div class="grid gap-4 sm:grid-cols-2">
+            <div>
+              <label for="website" class="block text-xs font-semibold text-zinc-700 dark:text-zinc-300 mb-1">Website URL (Optional)</label>
+              <input
+                type="url"
+                id="website"
+                name="website"
+                placeholder="https://example.com"
+                class="w-full px-3.5 py-2.5 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-[var(--surface)] text-sm text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+              />
+            </div>
+
+            <div>
+              <label for="service-type" class="block text-xs font-semibold text-zinc-700 dark:text-zinc-300 mb-1">Primary Interest</label>
+              <select
+                id="service-type"
+                name="service-type"
+                class="w-full px-3.5 py-2.5 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-[var(--surface)] text-sm text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+              >
+                <option value="white-label">White Label Agency SEO</option>
+                <option value="local-seo">Local SEO & Google Business Profile</option>
+                <option value="ai-search">AI Search (GEO / AEO)</option>
+                <option value="technical-seo">Technical SEO & Core Web Vitals</option>
+                <option value="ecommerce">Shopify / E-Commerce Growth</option>
+                <option value="full-time">Full-Time / Team Lead Hiring</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="message" class="block text-xs font-semibold text-zinc-700 dark:text-zinc-300 mb-1">Project Details or Goals</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              required
+              placeholder="Tell me about your current traffic, target keywords, timeline, or agency requirements..."
+              class="w-full px-3.5 py-2.5 rounded-xl border border-zinc-200 dark:border-zinc-700 bg-[var(--surface)] text-sm text-zinc-900 dark:text-zinc-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 resize-y"
+            ></textarea>
+          </div>
+
+          <div class="flex items-center justify-between pt-2">
+            <span id="form-status" class="text-xs text-zinc-500"></span>
+            <button
+              type="submit"
+              data-sfx="sparkle"
+              class="btn btn-primary h-10 px-6 rounded-xl text-sm font-semibold"
+            >
+              <span class="btn-content">Send Message</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function setupContactForm() {
+      const form = document.getElementById('inquiry-form') as HTMLFormElement | null;
+      const status = document.getElementById('form-status');
+
+      form?.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const name = formData.get('name');
+        const email = formData.get('email');
+        const service = formData.get('service-type');
+        const website = formData.get('website');
+        const message = formData.get('message');
+
+        const subject = encodeURIComponent(`SEO Inquiry from ${name} (${service})`);
+        const body = encodeURIComponent(
+          `Name: ${name}\nEmail: ${email}\nWebsite: ${website || 'N/A'}\nService: ${service}\n\nMessage:\n${message}`
+        );
+
+        // Open mailto link
+        window.location.href = `mailto:mizanmahmudseo@gmail.com?subject=${subject}&body=${body}`;
+
+        if (status) {
+          status.textContent = "Redirecting to your email client...";
+          setTimeout(() => {
+            status.textContent = "Inquiry generated! Looking forward to connecting.";
+            form.reset();
+          }, 2000);
+        }
+      });
+    }
+
+    setupContactForm();
+    document.addEventListener('astro:after-swap', setupContactForm);
+  </script>
+</BaseLayout>

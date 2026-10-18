@@ -1,0 +1,235 @@
+---
+import { ClientRouter } from 'astro:transitions';
+import SideNav from '../components/SideNav.astro';
+import RightRail from '../components/RightRail.astro';
+import ShareModal from '../components/ShareModal.astro';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  currentPath?: string;
+}
+
+const {
+  title = "Md. Mizanur Rahaman · White Label SEO Strategist · Local & Ecommerce SEO",
+  description = "Md. Mizanur Rahaman: Senior SEO Strategist with 4+ years of agency experience. Specializing in Local & National SEO, Google Business Profile optimization, Shopify E-commerce growth, and AI Search (GEO/AEO).",
+  currentPath = Astro.url.pathname,
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || 'https://mizanur.me');
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Md. Mizanur Rahaman",
+  "alternateName": "mizan-seo",
+  "jobTitle": "White Label SEO Strategist | Local & Ecommerce SEO | AI Search (GEO/AEO) Strategist",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "CrazyGraph Marketing Agency"
+  },
+  "url": canonicalURL.toString(),
+  "email": "mizanmahmudseo@gmail.com",
+  "telephone": "+8801688327756",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Chittagong",
+    "addressCountry": "BD"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/mizan-seo/"
+  ],
+  "knowsAbout": [
+    "Technical SEO",
+    "Local SEO & GBP Optimization",
+    "Ecommerce SEO (Shopify & WooCommerce)",
+    "Answer Engine Optimization (AEO)",
+    "Generative Engine Optimization (GEO)",
+    "Entity SEO & Schema Markup",
+    "Core Web Vitals"
+  ],
+  "description": description
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0d0d0f" media="(prefers-color-scheme: dark)" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content="Md. Mizanur Rahaman Portfolio" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%230f9459'/><text x='50%' y='67%' font-size='56' font-weight='900' font-family='sans-serif' fill='white' text-anchor='middle'>M</text></svg>" />
+
+    <!-- Google Fonts: Geist & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+    <!-- Theme & Storage Initialization (runs before render to prevent FOUC) -->
+    <script is:inline>
+      (function() {
+        const storedTheme = localStorage.getItem('theme');
+        const root = document.documentElement;
+        if (storedTheme === 'dark' || (!storedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          root.classList.add('dark');
+        } else {
+          root.classList.remove('dark');
+        }
+
+        if (localStorage.getItem('sidebar') === 'collapsed') {
+          root.dataset.sidebar = 'collapsed';
+        }
+        if (localStorage.getItem('sound') === 'off') {
+          root.dataset.sound = 'off';
+        }
+      })();
+    </script>
+
+    <ClientRouter />
+  </head>
+  <body class="min-h-dvh">
+    <div class="mx-auto flex max-w-350">
+      <!-- Left Sidebar Navigation -->
+      <SideNav currentPath={currentPath} />
+
+      <!-- Center Main Content Area -->
+      <main class="min-w-0 flex-1 border-line pb-20 md:border-x md:pb-0">
+        <slot />
+      </main>
+
+      <!-- Right Sidebar (Sticky on LG/XL) -->
+      <RightRail />
+    </div>
+
+    <!-- Global Share Notification Toast -->
+    <ShareModal />
+
+    <!-- Client-side Audio Engine & Micro-interactions -->
+    <script>
+      // Sound Synthesizer via Web Audio API (Zero external audio files needed)
+      class SoundEngine {
+        private ctx: AudioContext | null = null;
+
+        private getContext() {
+          if (!this.ctx) {
+            const AudioCtx = window.AudioContext || (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
+            if (AudioCtx) this.ctx = new AudioCtx();
+          }
+          if (this.ctx && this.ctx.state === 'suspended') {
+            this.ctx.resume();
+          }
+          return this.ctx;
+        }
+
+        play(type: 'pop' | 'sparkle' | 'click' = 'pop') {
+          if (document.documentElement.dataset.sound === 'off') return;
+          try {
+            const ctx = this.getContext();
+            if (!ctx) return;
+            const now = ctx.currentTime;
+
+            if (type === 'pop') {
+              const osc = ctx.createOscillator();
+              const gain = ctx.createGain();
+              osc.type = 'sine';
+              osc.frequency.setValueAtTime(320, now);
+              osc.frequency.exponentialRampToValueAtTime(750, now + 0.05);
+
+              gain.gain.setValueAtTime(0.12, now);
+              gain.gain.exponentialRampToValueAtTime(0.001, now + 0.06);
+
+              osc.connect(gain);
+              gain.connect(ctx.destination);
+              osc.start(now);
+              osc.stop(now + 0.07);
+            } else if (type === 'sparkle') {
+              const osc1 = ctx.createOscillator();
+              const osc2 = ctx.createOscillator();
+              const gain = ctx.createGain();
+
+              osc1.type = 'sine';
+              osc2.type = 'triangle';
+              osc1.frequency.setValueAtTime(650, now);
+              osc1.frequency.exponentialRampToValueAtTime(1100, now + 0.12);
+              osc2.frequency.setValueAtTime(980, now);
+              osc2.frequency.exponentialRampToValueAtTime(1400, now + 0.12);
+
+              gain.gain.setValueAtTime(0.08, now);
+              gain.gain.exponentialRampToValueAtTime(0.001, now + 0.14);
+
+              osc1.connect(gain);
+              osc2.connect(gain);
+              gain.connect(ctx.destination);
+              osc1.start(now);
+              osc2.start(now);
+              osc1.stop(now + 0.15);
+              osc2.stop(now + 0.15);
+            } else {
+              // Click
+              const osc = ctx.createOscillator();
+              const gain = ctx.createGain();
+              osc.type = 'sine';
+              osc.frequency.setValueAtTime(500, now);
+              gain.gain.setValueAtTime(0.08, now);
+              gain.gain.exponentialRampToValueAtTime(0.001, now + 0.02);
+              osc.connect(gain);
+              gain.connect(ctx.destination);
+              osc.start(now);
+              osc.stop(now + 0.03);
+            }
+          } catch (e) {
+            // Audio context not allowed without user gesture
+          }
+        }
+      }
+
+      const sfx = new SoundEngine();
+      (window as unknown as { playSfx: (t?: 'pop' | 'sparkle' | 'click') => void }).playSfx = (t) => sfx.play(t);
+
+      // Event delegation for clicks with data-sfx
+      function attachSfxListeners() {
+        document.addEventListener('click', (e) => {
+          const target = (e.target as HTMLElement | null)?.closest('[data-sfx]');
+          if (target) {
+            const soundType = target.getAttribute('data-sfx') as 'pop' | 'sparkle' | 'click';
+            sfx.play(soundType || 'pop');
+          }
+        });
+
+        // Pointer move for Halo Card lighting tracking
+        document.addEventListener('pointermove', (e) => {
+          const target = (e.target as HTMLElement | null)?.closest('[data-halo]') as HTMLElement | null;
+          if (!target) return;
+          const rect = target.getBoundingClientRect();
+          target.style.setProperty('--mx', `${e.clientX - rect.left}px`);
+          target.style.setProperty('--my', `${e.clientY - rect.top}px`);
+        }, { passive: true });
+      }
+
+      attachSfxListeners();
+      document.addEventListener('astro:after-swap', attachSfxListeners);
+    </script>
+  </body>
+</html>
