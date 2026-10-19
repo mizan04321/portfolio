@@ -1,0 +1,2522 @@
+{
+  "version": "0.4",
+  "title": "Md. Mizanur Rahaman - Visual SEO Portfolio Homepage",
+  "type": "page",
+  "page_settings": {
+    "template": "elementor_canvas"
+  },
+  "content": [
+    {
+      "id": "c3a7acf",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#063f29",
+        "background_color_b": "#0a7f4f",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 145
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "50",
+          "left": "20",
+          "isLinked": false
+        },
+        "border_radius": {
+          "unit": "px",
+          "top": "24",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": true
+        },
+        "margin": {
+          "unit": "px",
+          "top": "20",
+          "right": "10",
+          "bottom": "25",
+          "left": "10",
+          "isLinked": false
+        },
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 12,
+          "blur": 35,
+          "spread": -8,
+          "color": "rgba(10, 127, 79, 0.35)"
+        }
+      },
+      "elements": [
+        {
+          "id": "54c0f27",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "6b9dd5f",
+              "elType": "widget",
+              "widgetType": "image",
+              "isInner": false,
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=240&h=240&q=80",
+                  "id": ""
+                },
+                "align": "center",
+                "image_size": "thumbnail",
+                "width": {
+                  "unit": "px",
+                  "size": 110
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "999",
+                  "right": "999",
+                  "bottom": "999",
+                  "left": "999",
+                  "isLinked": true
+                },
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "4",
+                  "right": "4",
+                  "bottom": "4",
+                  "left": "4",
+                  "isLinked": true
+                },
+                "border_color": "#ffffff",
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 10,
+                  "blur": 25,
+                  "spread": -5,
+                  "color": "rgba(0, 0, 0, 0.2)"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "d49399d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Md. Mizanur Rahaman",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_weight": "800"
+              },
+              "elements": []
+            },
+            {
+              "id": "feece68",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "White Label SEO Strategist · Local & Ecommerce SEO · AI Search (GEO/AEO)",
+                "header_size": "h3",
+                "align": "center",
+                "title_color": "#a7f3d0",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            },
+            {
+              "id": "9bf5b76",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "🟢 Available 6–8 hrs/day for Full-Time, Remote & Agency Consulting Roles",
+                "header_size": "h4",
+                "align": "center",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "typography_font_weight": "600"
+              },
+              "elements": []
+            },
+            {
+              "id": "f194ef2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "🏢 Senior SEO Executive & Team Lead at <strong>CrazyGraph Marketing Agency</strong> &nbsp;|&nbsp; 📍 Chittagong, Bangladesh (GMT+6)",
+                "align": "center",
+                "text_color": "#e2e8e5",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "4a5b704",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "isInner": false,
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 15
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "adecba7",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "default"
+              },
+              "elements": [
+                {
+                  "id": "b358069",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "c0459af",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "isInner": false,
+                      "settings": {
+                        "text": "Chat on WhatsApp",
+                        "link": {
+                          "url": "https://wa.me/8801688327756",
+                          "is_external": true,
+                          "nofollow": false
+                        },
+                        "align": "right",
+                        "size": "md",
+                        "selected_icon": {
+                          "value": "fab fa-whatsapp",
+                          "library": "fa-solid"
+                        },
+                        "icon_align": "right",
+                        "button_text_color": "#ffffff",
+                        "background_color": "#25d366",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "12",
+                          "right": "12",
+                          "bottom": "12",
+                          "left": "12",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_weight": "600",
+                        "button_box_shadow_box_shadow_type": "yes",
+                        "button_box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 6,
+                          "blur": 18,
+                          "spread": -4,
+                          "color": "rgba(15, 148, 89, 0.4)"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "ea063de",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "536b7bb",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "isInner": false,
+                      "settings": {
+                        "text": "Connect on LinkedIn",
+                        "link": {
+                          "url": "https://www.linkedin.com/in/mizan-seo/",
+                          "is_external": true,
+                          "nofollow": false
+                        },
+                        "align": "left",
+                        "size": "md",
+                        "selected_icon": {
+                          "value": "fab fa-linkedin",
+                          "library": "fa-solid"
+                        },
+                        "icon_align": "right",
+                        "button_text_color": "#0f172a",
+                        "background_color": "#ffffff",
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "12",
+                          "right": "12",
+                          "bottom": "12",
+                          "left": "12",
+                          "isLinked": true
+                        },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_weight": "600",
+                        "button_box_shadow_box_shadow_type": "yes",
+                        "button_box_shadow_box_shadow": {
+                          "horizontal": 0,
+                          "vertical": 6,
+                          "blur": 18,
+                          "spread": -4,
+                          "color": "rgba(15, 148, 89, 0.4)"
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcb0dfc",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "10",
+          "bottom": "20",
+          "left": "10",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "f5df014",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "85091d8",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "default"
+              },
+              "elements": [
+                {
+                  "id": "441f2f9",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "b00fdbf",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "isInner": false,
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 1200,
+                        "suffix": "+",
+                        "title": "Calls Generated via GBP",
+                        "duration": 1800,
+                        "number_color": "#0f9459",
+                        "title_color": "#64748b",
+                        "typography_number_typography": "custom",
+                        "typography_number_font_family": "Plus Jakarta Sans",
+                        "typography_number_font_weight": "800",
+                        "typography_number_font_size": {
+                          "unit": "px",
+                          "size": 36
+                        },
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "600",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "6038794",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "3dfaf6f",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "isInner": false,
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 30,
+                        "suffix": "+",
+                        "title": "Managed SEO Projects",
+                        "duration": 1800,
+                        "number_color": "#0f9459",
+                        "title_color": "#64748b",
+                        "typography_number_typography": "custom",
+                        "typography_number_font_family": "Plus Jakarta Sans",
+                        "typography_number_font_weight": "800",
+                        "typography_number_font_size": {
+                          "unit": "px",
+                          "size": 36
+                        },
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "600",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "6543728",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4802e78",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "isInner": false,
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 3,
+                        "suffix": "×",
+                        "title": "Organic Ranking Surge",
+                        "duration": 1800,
+                        "number_color": "#0f9459",
+                        "title_color": "#64748b",
+                        "typography_number_typography": "custom",
+                        "typography_number_font_family": "Plus Jakarta Sans",
+                        "typography_number_font_weight": "800",
+                        "typography_number_font_size": {
+                          "unit": "px",
+                          "size": 36
+                        },
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "600",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "dfc8a3b",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "0c1b10f",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "isInner": false,
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 1900,
+                        "suffix": "+",
+                        "title": "Shopify Clicks in 90 Days",
+                        "duration": 1800,
+                        "number_color": "#0f9459",
+                        "title_color": "#64748b",
+                        "typography_number_typography": "custom",
+                        "typography_number_font_family": "Plus Jakarta Sans",
+                        "typography_number_font_weight": "800",
+                        "typography_number_font_size": {
+                          "unit": "px",
+                          "size": 36
+                        },
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "600",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5074d5d",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "25",
+          "right": "10",
+          "bottom": "25",
+          "left": "10",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "f48c72f",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "0442b94",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "About Md. Mizanur Rahaman",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_weight": "800"
+              },
+              "elements": []
+            },
+            {
+              "id": "187b9fd",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#e2e8e5",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 15
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "e72bd9f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "<p>I’m an <strong>SEO Strategist with 4+ years of experience</strong> at digital marketing agencies such as Markeion and CrazyGraph, where I worked as both a Junior and Senior SEO Executive. I have experience in both remote and in-house environments, working with UK-based agencies and freelance clients across the <strong>USA, UK, UAE, and the Netherlands</strong>.</pp><p>My expertise covers both local and national SEO, including growing a local business from <strong>50 to 1,200+ calls in just 5 months</strong> through strategic Google Business Profile optimization. I build strong technical, semantic, and topical foundations that search engines and AI answer engines can understand, trust, and reward.</p><p>As search evolves into conversational engines, I engineer <strong>Answer Engine Optimization (AEO)</strong> and <strong>Generative Engine Optimization (GEO)</strong> to secure client visibility across Google AI Overviews, ChatGPT, Claude, and Perplexity.</p>",
+                "align": "left",
+                "text_color": "#334155",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "d60f325",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "isInner": false,
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "2b5e8f7",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "default"
+              },
+              "elements": [
+                {
+                  "id": "fdaa37e",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "b5c3ef0",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-map-marker-alt",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "Based in Chittagong, Bangladesh",
+                        "description_text": "Asia/Dhaka time zone (GMT+6). Smooth overlap with US, UK, and European business hours for agile communication.",
+                        "position": "left",
+                        "primary_color": "#0f9459",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "2e0437f",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "22fce28",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-globe-americas",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "Remote-First & White Label Ready",
+                        "description_text": "Experienced executing under strict agency NDAs with client-branded reporting, custom SOPs, and prompt turnarounds.",
+                        "position": "left",
+                        "primary_color": "#0f9459",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9031a48",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "25",
+          "right": "10",
+          "bottom": "25",
+          "left": "10",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "67fa83b",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "ea5abc3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Professional Experience",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_weight": "800"
+              },
+              "elements": []
+            },
+            {
+              "id": "39cd996",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#e2e8e5",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 15
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "b7269ac",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "isInner": false,
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-briefcase",
+                  "library": "fa-solid"
+                },
+                "title_text": "Senior SEO Executive & Team Lead — CrazyGraph Marketing Agency",
+                "description_text": "Nov 2024 – Present | Bangladesh (In-house)\n• Managing 30+ SEO projects across local, national, multilingual, multi-location, and B2B campaigns in healthcare and other industries across USA, UK, and UAE.\n• Developed personalized agency SOPs driving measurable growth within 3–6 months.\n• Implemented AI-powered SEO strategies across Google SERPs, AI Overviews, and LLMs (ChatGPT, Grok, Claude).",
+                "position": "left",
+                "primary_color": "#0f9459",
+                "title_color": "#0f172a",
+                "description_color": "#475569",
+                "typography_title_typography": "custom",
+                "typography_title_font_family": "Plus Jakarta Sans",
+                "typography_title_font_weight": "700",
+                "typography_title_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_description_typography": "custom",
+                "typography_description_font_family": "Plus Jakarta Sans",
+                "typography_description_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_description_line_height": {
+                  "unit": "em",
+                  "size": 1.5
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "4e235f8",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#f1f5f9",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "4abde96",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "isInner": false,
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-laptop-code",
+                  "library": "fa-solid"
+                },
+                "title_text": "Freelance SEO Executive (Project Basis) — Valley Industry Supply",
+                "description_text": "May 2026 – Present | USA (Remote)\n• Built Google Business Profile and link-building strategies, providing actionable recommendations to improve local rankings.\n• Managed link-building campaigns for B2B manufacturing across USA and Mexico.",
+                "position": "left",
+                "primary_color": "#0f9459",
+                "title_color": "#0f172a",
+                "description_color": "#475569",
+                "typography_title_typography": "custom",
+                "typography_title_font_family": "Plus Jakarta Sans",
+                "typography_title_font_weight": "700",
+                "typography_title_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_description_typography": "custom",
+                "typography_description_font_family": "Plus Jakarta Sans",
+                "typography_description_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_description_line_height": {
+                  "unit": "em",
+                  "size": 1.5
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "4e9f2c9",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#f1f5f9",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "4bad969",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "isInner": false,
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-tools",
+                  "library": "fa-solid"
+                },
+                "title_text": "Freelance Technical SEO Strategist — Ramies Taxi",
+                "description_text": "Jan 2025 – Jun 2025 | UK (Remote)\n• Audited and fixed technical SEO issues using GSC, Semrush, and Screaming Frog, including Core Web Vitals, page speed, schema, and indexing.\n• Identified and disavowed 300+ harmful backlinks, driving a 3× improvement in organic rankings into Top 5 results.",
+                "position": "left",
+                "primary_color": "#0f9459",
+                "title_color": "#0f172a",
+                "description_color": "#475569",
+                "typography_title_typography": "custom",
+                "typography_title_font_family": "Plus Jakarta Sans",
+                "typography_title_font_weight": "700",
+                "typography_title_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_description_typography": "custom",
+                "typography_description_font_family": "Plus Jakarta Sans",
+                "typography_description_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_description_line_height": {
+                  "unit": "em",
+                  "size": 1.5
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "991f233",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#f1f5f9",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ebab047",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "isInner": false,
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-chart-line",
+                  "library": "fa-solid"
+                },
+                "title_text": "Junior SEO Executive — Markeion Software Company",
+                "description_text": "Aug 2023 – Sep 2024 | UK (Remote)\n• Executed keyword research, on-page & technical SEO, link building, page speed, schema, LLM optimization, and GBP optimization for local, national, and e-commerce clients.",
+                "position": "left",
+                "primary_color": "#0f9459",
+                "title_color": "#0f172a",
+                "description_color": "#475569",
+                "typography_title_typography": "custom",
+                "typography_title_font_family": "Plus Jakarta Sans",
+                "typography_title_font_weight": "700",
+                "typography_title_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_description_typography": "custom",
+                "typography_description_font_family": "Plus Jakarta Sans",
+                "typography_description_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_description_line_height": {
+                  "unit": "em",
+                  "size": 1.5
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "f82cf71",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#f1f5f9",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bbdd335",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "isInner": false,
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-shopping-cart",
+                  "library": "fa-solid"
+                },
+                "title_text": "Freelance Ecommerce SEO Strategist — Fanflix BD",
+                "description_text": "Jun 2023 – Sep 2023 | Dhaka, Bangladesh (Remote)\n• Scaled a Shopify e-commerce store selling digital products from 300 to 1.9K+ organic clicks in 3 months.",
+                "position": "left",
+                "primary_color": "#0f9459",
+                "title_color": "#0f172a",
+                "description_color": "#475569",
+                "typography_title_typography": "custom",
+                "typography_title_font_family": "Plus Jakarta Sans",
+                "typography_title_font_weight": "700",
+                "typography_title_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_description_typography": "custom",
+                "typography_description_font_family": "Plus Jakarta Sans",
+                "typography_description_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_description_line_height": {
+                  "unit": "em",
+                  "size": 1.5
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "b5fc47e",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#f1f5f9",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "47b9b09",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "isInner": false,
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-store-alt",
+                  "library": "fa-solid"
+                },
+                "title_text": "Freelance Local SEO Strategist — Local Businesses Worldwide",
+                "description_text": "Jan 2023 – Present\n• UK Pharmacy: Complete local SEO overhaul generating 1,200+ calls in 6 months.\n• Houston Landscaping: Generated 330 calls in a single month through GBP optimization.\n• Oldham Chiropody Clinic: Optimized GBP to produce direct bookings directly via Google Maps.",
+                "position": "left",
+                "primary_color": "#0f9459",
+                "title_color": "#0f172a",
+                "description_color": "#475569",
+                "typography_title_typography": "custom",
+                "typography_title_font_family": "Plus Jakarta Sans",
+                "typography_title_font_weight": "700",
+                "typography_title_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_description_typography": "custom",
+                "typography_description_font_family": "Plus Jakarta Sans",
+                "typography_description_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_description_line_height": {
+                  "unit": "em",
+                  "size": 1.5
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ebe7ca3",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "25",
+          "right": "10",
+          "bottom": "25",
+          "left": "10",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "507cbff",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "85476c7",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Case Study Highlights",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_weight": "800"
+              },
+              "elements": []
+            },
+            {
+              "id": "31338dc",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#e2e8e5",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 15
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "b02d5c1",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "default"
+              },
+              "elements": [
+                {
+                  "id": "bb48a84",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "91385a4",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-shopping-bag",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "Shopify E-Commerce Growth",
+                        "description_text": "Increased organic clicks from 300 to 1.9K+ within 3 months via keyword intent mapping, technical category audits, and structured product schema.",
+                        "position": "left",
+                        "primary_color": "#0f9459",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "23e9345",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "298df11",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-hospital-user",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "UK Healthcare (7 Google Business Profiles)",
+                        "description_text": "Managed multi-location local SEO for a UK-based healthcare business across 7 GBPs, securing dominant Google Maps 3-Pack visibility and patient leads.",
+                        "position": "left",
+                        "primary_color": "#0f9459",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "7191a9d",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "isInner": false,
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 10
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "37d9cac",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "default"
+              },
+              "elements": [
+                {
+                  "id": "073b792",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "f5a1d54",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-shield-alt",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "UK Taxi Technical SEO & Disavow Recovery",
+                        "description_text": "Fixed Core Web Vitals, audited link health, and disavowed 300+ spammy backlinks, propelling target keywords from position 10+ into Top 5 organic rankings.",
+                        "position": "left",
+                        "primary_color": "#0f9459",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "b38570d",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "a11db24",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-phone-volume",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "High-Converting Local Lead Generation",
+                        "description_text": "Generated 1,200+ calls within 6 months for a UK pharmacy, and 330 calls in a single month for a Houston, USA landscaping enterprise.",
+                        "position": "left",
+                        "primary_color": "#0f9459",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5c2e6f1",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "25",
+          "right": "10",
+          "bottom": "25",
+          "left": "10",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "8f54a6c",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "0432b1a",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Core Competencies & Tools",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_weight": "800"
+              },
+              "elements": []
+            },
+            {
+              "id": "c0a4ec9",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#e2e8e5",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 15
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "800e46c",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "default"
+              },
+              "elements": [
+                {
+                  "id": "6d2f806",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "3eb75df",
+                      "elType": "widget",
+                      "widgetType": "icon-list",
+                      "isInner": false,
+                      "settings": {
+                        "icon_color": "#0f9459",
+                        "text_color": "#334155",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "icon_list": [
+                          {
+                            "text": "Technical SEO, Semantic & Entity SEO",
+                            "selected_icon": {
+                              "value": "fas fa-check-circle",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Google Business Profile & Local 3-Pack Optimization",
+                            "selected_icon": {
+                              "value": "fas fa-check-circle",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Answer Engine Optimization (AEO) & GEO",
+                            "selected_icon": {
+                              "value": "fas fa-check-circle",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Topical Authority & Keyword Intent Mapping",
+                            "selected_icon": {
+                              "value": "fas fa-check-circle",
+                              "library": "fa-solid"
+                            }
+                          }
+                        ]
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "07b709d",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "dc6de04",
+                      "elType": "widget",
+                      "widgetType": "icon-list",
+                      "isInner": false,
+                      "settings": {
+                        "icon_color": "#0f9459",
+                        "text_color": "#334155",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "icon_list": [
+                          {
+                            "text": "Ecommerce SEO (Shopify, WooCommerce, WordPress)",
+                            "selected_icon": {
+                              "value": "fas fa-check-circle",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Toxic Backlink Audits & Google Disavow Recovery",
+                            "selected_icon": {
+                              "value": "fas fa-check-circle",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Google Search Console, GA4 & Looker Studio Reporting",
+                            "selected_icon": {
+                              "value": "fas fa-check-circle",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "White Label Team Leadership & Custom Agency SOPs",
+                            "selected_icon": {
+                              "value": "fas fa-check-circle",
+                              "library": "fa-solid"
+                            }
+                          }
+                        ]
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "4fd0124",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "isInner": false,
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 15
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "1cbb0dc",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "default"
+              },
+              "elements": [
+                {
+                  "id": "c46c3d3",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ed57454",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-spider",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "SEO & Research",
+                        "description_text": "Screaming Frog, Ahrefs, Semrush, Moz, Surfer SEO, Frase, Local Falcon, Ubersuggest",
+                        "position": "left",
+                        "primary_color": "#0f9459",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "1704319",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "ec4a649",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-chart-pie",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "Analytics & Data",
+                        "description_text": "Google Search Console, GA4, Google Tag Manager, Looker Studio, Google Sheets",
+                        "position": "left",
+                        "primary_color": "#0f9459",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "6761616",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "befeed7",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-desktop",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "CMS & Platforms",
+                        "description_text": "WordPress, Shopify, Webflow, Wix, WooCommerce, Drupal",
+                        "position": "left",
+                        "primary_color": "#0f9459",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "34be5a8",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "44c5362",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-brain",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "AI & LLM Tools",
+                        "description_text": "ChatGPT, Claude, Claude Code, Antigravity 2.0, Gemini, Perplexity, Grok",
+                        "position": "left",
+                        "primary_color": "#0f9459",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8f1cafb",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "25",
+          "right": "10",
+          "bottom": "25",
+          "left": "10",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "82d4c27",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "d515a7b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Education & Certifications",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_weight": "800"
+              },
+              "elements": []
+            },
+            {
+              "id": "f62a994",
+              "elType": "widget",
+              "widgetType": "divider",
+              "isInner": false,
+              "settings": {
+                "color": "#e2e8e5",
+                "weight": {
+                  "unit": "px",
+                  "size": 1
+                },
+                "gap": {
+                  "unit": "px",
+                  "size": 15
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "b80c846",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "default"
+              },
+              "elements": [
+                {
+                  "id": "841d58a",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "e484f38",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-graduation-cap",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "Bachelor of Social Science (BSS)",
+                        "description_text": "2020 – 2025 (Completed)\nChittagong College, Bangladesh",
+                        "position": "left",
+                        "primary_color": "#0f9459",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "73cdd69",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 50,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "682c1ef",
+                      "elType": "widget",
+                      "widgetType": "icon-list",
+                      "isInner": false,
+                      "settings": {
+                        "icon_color": "#0f9459",
+                        "text_color": "#334155",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Plus Jakarta Sans",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "icon_list": [
+                          {
+                            "text": "Semrush Academy: Advanced Technical SEO & Fundamentals",
+                            "selected_icon": {
+                              "value": "fas fa-certificate",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Udemy: From Zero to Page-One Results – AEO & GEO",
+                            "selected_icon": {
+                              "value": "fas fa-certificate",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "Schema App: Schema.org Implementation Specialist",
+                            "selected_icon": {
+                              "value": "fas fa-certificate",
+                              "library": "fa-solid"
+                            }
+                          },
+                          {
+                            "text": "BrightLocal: Local SEO Fundamentals Certification",
+                            "selected_icon": {
+                              "value": "fas fa-certificate",
+                              "library": "fa-solid"
+                            }
+                          }
+                        ]
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "284341b",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f8faf9",
+        "border_radius": {
+          "unit": "px",
+          "top": "20",
+          "right": "20",
+          "bottom": "20",
+          "left": "20",
+          "isLinked": true
+        },
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "1",
+          "bottom": "1",
+          "left": "1",
+          "isLinked": true
+        },
+        "border_color": "#e2e8e5",
+        "padding": {
+          "unit": "px",
+          "top": "45",
+          "right": "20",
+          "bottom": "45",
+          "left": "20",
+          "isLinked": false
+        },
+        "margin": {
+          "unit": "px",
+          "top": "25",
+          "right": "10",
+          "bottom": "40",
+          "left": "10",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "894909a",
+          "elType": "column",
+          "isInner": false,
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "417391c",
+              "elType": "widget",
+              "widgetType": "heading",
+              "isInner": false,
+              "settings": {
+                "title": "Let’s Build Something Great Together",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#0f172a",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_weight": "800"
+              },
+              "elements": []
+            },
+            {
+              "id": "f1626e7",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "isInner": false,
+              "settings": {
+                "editor": "Have an SEO project, an agency white-label partnership, or a consultation inquiry? Reach out directly below:",
+                "align": "center",
+                "text_color": "#64748b",
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "fe86909",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "isInner": false,
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 15
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "a315471",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "default"
+              },
+              "elements": [
+                {
+                  "id": "15518fa",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "5fdc86a",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fab fa-whatsapp",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "WhatsApp",
+                        "description_text": "+8801688327756",
+                        "position": "top",
+                        "primary_color": "#25d366",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        },
+                        "link": {
+                          "url": "https://wa.me/8801688327756",
+                          "is_external": true,
+                          "nofollow": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "1a659d5",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "352cbf2",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-envelope",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "Email",
+                        "description_text": "mizanmahmudseo@gmail.com",
+                        "position": "top",
+                        "primary_color": "#2563eb",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        },
+                        "link": {
+                          "url": "mailto:mizanmahmudseo@gmail.com",
+                          "is_external": true,
+                          "nofollow": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "9410e73",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "4a37a24",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fab fa-linkedin",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "LinkedIn",
+                        "description_text": "in/mizan-seo",
+                        "position": "top",
+                        "primary_color": "#0284c7",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        },
+                        "link": {
+                          "url": "https://www.linkedin.com/in/mizan-seo/",
+                          "is_external": true,
+                          "nofollow": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "3e50416",
+                  "elType": "column",
+                  "isInner": true,
+                  "settings": {
+                    "_column_size": 25,
+                    "padding": {
+                      "unit": "px",
+                      "top": "8",
+                      "right": "8",
+                      "bottom": "8",
+                      "left": "8",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "66677c3",
+                      "elType": "widget",
+                      "widgetType": "icon-box",
+                      "isInner": false,
+                      "settings": {
+                        "selected_icon": {
+                          "value": "fas fa-phone-alt",
+                          "library": "fa-solid"
+                        },
+                        "title_text": "Phone",
+                        "description_text": "+8801688327756",
+                        "position": "top",
+                        "primary_color": "#9333ea",
+                        "title_color": "#0f172a",
+                        "description_color": "#475569",
+                        "typography_title_typography": "custom",
+                        "typography_title_font_family": "Plus Jakarta Sans",
+                        "typography_title_font_weight": "700",
+                        "typography_title_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_description_typography": "custom",
+                        "typography_description_font_family": "Plus Jakarta Sans",
+                        "typography_description_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "typography_description_line_height": {
+                          "unit": "em",
+                          "size": 1.5
+                        },
+                        "link": {
+                          "url": "tel:+8801688327756",
+                          "is_external": true,
+                          "nofollow": false
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "1ce72b6",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "isInner": false,
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 20
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "0e3b2e5",
+              "elType": "widget",
+              "widgetType": "button",
+              "isInner": false,
+              "settings": {
+                "text": "Chat on WhatsApp (+8801688327756)",
+                "link": {
+                  "url": "https://wa.me/8801688327756?text=Hi%20Mizanur,%20I%20would%20like%20to%20discuss%20an%20SEO%20project",
+                  "is_external": true,
+                  "nofollow": false
+                },
+                "align": "center",
+                "size": "md",
+                "selected_icon": {
+                  "value": "fab fa-whatsapp",
+                  "library": "fa-solid"
+                },
+                "icon_align": "right",
+                "button_text_color": "#ffffff",
+                "background_color": "#0f9459",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "12",
+                  "right": "12",
+                  "bottom": "12",
+                  "left": "12",
+                  "isLinked": true
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Plus Jakarta Sans",
+                "typography_font_weight": "600",
+                "button_box_shadow_box_shadow_type": "yes",
+                "button_box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 6,
+                  "blur": 18,
+                  "spread": -4,
+                  "color": "rgba(15, 148, 89, 0.4)"
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
