@@ -92,10 +92,11 @@ const jsonLd = {
       (function() {
         const storedTheme = localStorage.getItem('theme');
         const root = document.documentElement;
-        if (storedTheme === 'dark' || (!storedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-          root.classList.add('dark');
-        } else {
+        // Default to dark theme unless user has explicitly chosen 'light'
+        if (storedTheme === 'light') {
           root.classList.remove('dark');
+        } else {
+          root.classList.add('dark');
         }
 
         if (localStorage.getItem('sidebar') === 'collapsed') {
@@ -105,6 +106,35 @@ const jsonLd = {
           root.dataset.sound = 'off';
         }
       })();
+
+      // Prevent automatic theme flipping during Astro client-side page transitions
+      document.addEventListener('astro:before-swap', (e) => {
+        const storedTheme = localStorage.getItem('theme');
+        const isDark = storedTheme === 'light'
+          ? false
+          : (storedTheme === 'dark' || document.documentElement.classList.contains('dark'));
+
+        if (isDark) {
+          e.newDocument.documentElement.classList.add('dark');
+        } else {
+          e.newDocument.documentElement.classList.remove('dark');
+        }
+
+        const sidebar = localStorage.getItem('sidebar') || document.documentElement.dataset.sidebar;
+        if (sidebar) {
+          e.newDocument.documentElement.dataset.sidebar = sidebar;
+        }
+        const sound = localStorage.getItem('sound') || document.documentElement.dataset.sound;
+        if (sound) {
+          e.newDocument.documentElement.dataset.sound = sound;
+        }
+      });
+
+      document.addEventListener('astro:after-swap', () => {
+        const storedTheme = localStorage.getItem('theme');
+        const isDark = storedTheme === 'light' ? false : true;
+        document.documentElement.classList.toggle('dark', isDark);
+      });
     </script>
 
     <ClientRouter />
