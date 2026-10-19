@@ -1,6 +1,6 @@
 # Md. Mizanur Rahaman — SEO Strategist Portfolio
 
-A portfolio website crafted to mirror the design, interactive animations, and responsive aesthetics of [nahian.bd](https://nahian.bd/), tailored specifically for **Md. Mizanur Rahaman** — White Label SEO Strategist, Local & Ecommerce SEO, and AI Search (GEO/AEO) Specialist.
+A portfolio website crafted to mirror the design, interactive animations, and responsive aesthetics tailored specifically for **Md. Mizanur Rahaman** — White Label SEO Strategist, Local & Ecommerce SEO, and AI Search (GEO/AEO) Specialist.
 
 Built with **Astro 5** and **Tailwind CSS**, featuring ultra-fast static generation (100 Core Web Vitals Lighthouse score), dark/light mode toggle with theme persistence, Web Audio API sound effects, and zero-config deployment to **GitHub Pages** and **Vercel**.
 
