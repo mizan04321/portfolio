@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gsc-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c120e" />
+      <stop offset="100%" stop-color="#141c17" />
+    </linearGradient>
+    <linearGradient id="clicks-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient id="impr-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="480" rx="16" fill="url(#gsc-bg)" stroke="#223028" stroke-width="2" />
+
+  <!-- Top bar -->
+  <g transform="translate(32, 28)">
+    <rect width="36" height="36" rx="8" fill="#1e293b" />
+    <path d="M10 26V18M18 26V10M26 26V14" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" />
+    <text x="48" y="16" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Google Search Console</text>
+    <text x="48" y="32" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12">Performance · Clicks &amp; Impressions Growth</text>
+    <rect x="620" y="4" width="116" height="28" rx="14" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.3" />
+    <text x="678" y="22" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" text-anchor="middle">GSC Verified</text>
+  </g>
+
+  <!-- Metric boxes -->
+  <g transform="translate(32, 85)">
+    <!-- Box 1: Clicks -->
+    <rect width="170" height="68" rx="10" fill="#121815" stroke="#223028" stroke-width="1" />
+    <text x="16" y="24" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="500">TOTAL CLICKS</text>
+    <text x="16" y="52" fill="#10b981" font-family="system-ui, sans-serif" font-size="22" font-weight="800">1.94K</text>
+    <text x="86" y="50" fill="#34d399" font-family="system-ui, sans-serif" font-size="11" font-weight="600">▲ +546%</text>
+
+    <!-- Box 2: Impressions -->
+    <rect x="185" width="170" height="68" rx="10" fill="#121815" stroke="#223028" stroke-width="1" />
+    <text x="201" y="24" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="500">IMPRESSIONS</text>
+    <text x="201" y="52" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="22" font-weight="800">84.2K</text>
+    <text x="280" y="50" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="11" font-weight="600">▲ +380%</text>
+
+    <!-- Box 3: Avg CTR -->
+    <rect x="370" width="170" height="68" rx="10" fill="#121815" stroke="#223028" stroke-width="1" />
+    <text x="386" y="24" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="500">AVERAGE CTR</text>
+    <text x="386" y="52" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="22" font-weight="800">4.8%</text>
+    <text x="445" y="50" fill="#34d399" font-family="system-ui, sans-serif" font-size="11" font-weight="600">▲ +1.6%</text>
+
+    <!-- Box 4: Avg Position -->
+    <rect x="555" width="181" height="68" rx="10" fill="#121815" stroke="#223028" stroke-width="1" />
+    <text x="571" y="24" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="500">AVG POSITION</text>
+    <text x="571" y="52" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="22" font-weight="800">6.2</text>
+    <text x="618" y="50" fill="#34d399" font-family="system-ui, sans-serif" font-size="11" font-weight="600">▲ from 18.4</text>
+  </g>
+
+  <!-- Chart Area -->
+  <g transform="translate(32, 175)">
+    <!-- Chart Background -->
+    <rect width="736" height="210" rx="10" fill="#0f1512" stroke="#1f2923" stroke-width="1" />
+    
+    <!-- Grid Lines -->
+    <line x1="20" y1="45" x2="716" y2="45" stroke="#1a231e" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="20" y1="95" x2="716" y2="95" stroke="#1a231e" stroke-width="1" stroke-dasharray="4 4" />
+    <line x1="20" y1="145" x2="716" y2="145" stroke="#1a231e" stroke-width="1" stroke-dasharray="4 4" />
+
+    <!-- Impressions Area (Blue) -->
+    <path d="M 20 170 Q 140 160 220 135 T 400 95 T 560 55 T 716 35 L 716 190 L 20 190 Z" fill="url(#impr-grad)" />
+    <path d="M 20 170 Q 140 160 220 135 T 400 95 T 560 55 T 716 35" fill="none" stroke="#3b82f6" stroke-width="2" stroke-opacity="0.8" />
+
+    <!-- Clicks Area (Emerald) -->
+    <path d="M 20 185 Q 120 180 200 165 T 380 120 T 540 70 T 716 40 L 716 190 L 20 190 Z" fill="url(#clicks-grad)" />
+    <path d="M 20 185 Q 120 180 200 165 T 380 120 T 540 70 T 716 40" fill="none" stroke="#10b981" stroke-width="3" />
+
+    <!-- End point dot -->
+    <circle cx="716" cy="40" r="5" fill="#10b981" stroke="#ffffff" stroke-width="2" />
+  </g>
+
+  <!-- Upload Prompt / Placeholder Banner -->
+  <g transform="translate(32, 405)">
+    <rect width="736" height="50" rx="8" fill="#161f1a" stroke="#223028" stroke-width="1" />
+    <circle cx="32" cy="25" r="14" fill="#10b981" fill-opacity="0.15" />
+    <path d="M26 27l4-4 4 4M30 23v7" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="60" y="24" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Image Placeholder: Google Search Console Screenshot</text>
+    <text x="60" y="38" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Replace file at: <tspan fill="#34d399" font-family="monospace">/images/case-studies/google-search-console.png</tspan></text>
+  </g>
+</svg>

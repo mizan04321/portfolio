@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gbp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c120e" />
+      <stop offset="100%" stop-color="#141c17" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="480" rx="16" fill="url(#gbp-bg)" stroke="#223028" stroke-width="2" />
+
+  <!-- Top bar -->
+  <g transform="translate(32, 28)">
+    <rect width="36" height="36" rx="8" fill="#1e293b" />
+    <!-- Pin icon -->
+    <path d="M18 9c-3.3 0-6 2.7-6 6 0 4.5 6 11 6 11s6-6.5 6-11c0-3.3-2.7-6-6-6zm0 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z" fill="#10b981" />
+    <text x="48" y="16" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Google Business Profile</text>
+    <text x="48" y="32" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="12">Customer Interactions &amp; Local Map Insights</text>
+    <rect x="624" y="4" width="112" height="28" rx="14" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.3" />
+    <text x="680" y="22" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" text-anchor="middle">GBP Verified</text>
+  </g>
+
+  <!-- Metric boxes -->
+  <g transform="translate(32, 85)">
+    <!-- Box 1: Calls -->
+    <rect width="232" height="72" rx="10" fill="#121815" stroke="#223028" stroke-width="1" />
+    <text x="16" y="26" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="500">PHONE CALLS RECEIVED</text>
+    <text x="16" y="56" fill="#10b981" font-family="system-ui, sans-serif" font-size="24" font-weight="800">1,240+</text>
+    <text x="110" y="54" fill="#34d399" font-family="system-ui, sans-serif" font-size="11" font-weight="600">▲ +720% (5 mos)</text>
+
+    <!-- Box 2: Direction Requests -->
+    <rect x="252" width="232" height="72" rx="10" fill="#121815" stroke="#223028" stroke-width="1" />
+    <text x="268" y="26" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="500">DIRECTION REQUESTS</text>
+    <text x="268" y="56" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="24" font-weight="800">890+</text>
+    <text x="350" y="54" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="11" font-weight="600">▲ +430%</text>
+
+    <!-- Box 3: Website Clicks -->
+    <rect x="504" width="232" height="72" rx="10" fill="#121815" stroke="#223028" stroke-width="1" />
+    <text x="520" y="26" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" font-weight="500">WEBSITE ACTIONS</text>
+    <text x="520" y="56" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="24" font-weight="800">650+</text>
+    <text x="602" y="54" fill="#34d399" font-family="system-ui, sans-serif" font-size="11" font-weight="600">▲ +295%</text>
+  </g>
+
+  <!-- Bar Visualizer Area -->
+  <g transform="translate(32, 180)">
+    <rect width="736" height="205" rx="10" fill="#0f1512" stroke="#1f2923" stroke-width="1" />
+    
+    <text x="24" y="32" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="13" font-weight="600">Monthly Call Volume Progression</text>
+
+    <!-- Month 1 -->
+    <text x="80" y="180" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Month 1</text>
+    <rect x="62" y="145" width="36" height="20" rx="4" fill="#1e2923" />
+    <text x="80" y="140" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">50</text>
+
+    <!-- Month 2 -->
+    <text x="220" y="180" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Month 2</text>
+    <rect x="202" y="125" width="36" height="40" rx="4" fill="#153e2d" />
+    <text x="220" y="120" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">180</text>
+
+    <!-- Month 3 -->
+    <text x="360" y="180" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Month 3</text>
+    <rect x="342" y="95" width="36" height="70" rx="4" fill="#0f6d43" />
+    <text x="360" y="90" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">420</text>
+
+    <!-- Month 4 -->
+    <text x="500" y="180" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Month 4</text>
+    <rect x="482" y="65" width="36" height="100" rx="4" fill="#0f9459" />
+    <text x="500" y="60" fill="#34d399" font-family="system-ui, sans-serif" font-size="11" font-weight="700" text-anchor="middle">780</text>
+
+    <!-- Month 5 -->
+    <text x="640" y="180" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Month 5 (Peak)</text>
+    <rect x="622" y="35" width="36" height="130" rx="4" fill="#10b981" />
+    <text x="640" y="30" fill="#34d399" font-family="system-ui, sans-serif" font-size="12" font-weight="800" text-anchor="middle">1,200+</text>
+  </g>
+
+  <!-- Upload Prompt / Placeholder Banner -->
+  <g transform="translate(32, 405)">
+    <rect width="736" height="50" rx="8" fill="#161f1a" stroke="#223028" stroke-width="1" />
+    <circle cx="32" cy="25" r="14" fill="#10b981" fill-opacity="0.15" />
+    <path d="M26 27l4-4 4 4M30 23v7" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="60" y="24" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="12" font-weight="700">Image Placeholder: Google Business Profile Screenshot</text>
+    <text x="60" y="38" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Replace file at: <tspan fill="#34d399" font-family="monospace">/images/case-studies/google-business-profile.png</tspan></text>
+  </g>
+</svg>
